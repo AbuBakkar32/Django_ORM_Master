@@ -3,8 +3,7 @@ from .models import Student
 from django.db import connection
 from django.db.models import Q
 
-# Part 2
-#################################################################
+
 def student_list_(request):
 
     posts = Student.objects.all()

@@ -1,8 +1,5 @@
 from django.db import models
 
-# Model Tasks 1-5
-#####################################
-
 class Teacher(models.Model):
       
     firstname = models.CharField(max_length=100)
@@ -21,5 +18,3 @@ class Student(models.Model):
 
     def __str__(self):
         return self.firstname
-
-######################################
