@@ -24,7 +24,7 @@ pylint==2.6.0
 pytz==2020.4
 requests==2.25.1
 six==1.15.0
-sqlparse==0.4.1
+sqlparse==0.4.4
 stripe==2.55.2
 testfixtures==6.17.1
 toml==0.10.2
